@@ -1,3 +1,4 @@
+#if 0 //ok for projects
 #include <stdio.h>
 
 //#if ( (sizeof(int) > 32) ? 1 : 0)
@@ -15,4 +16,5 @@ void main(void)
 	printf("^ @ ^\n");
 #endif /*endof printf cpu bits*/
 }
-
+#endif /*endof "if 0"*/
+//#define CPU32MAYBE {printf("Cpu bits 32+\n");}
